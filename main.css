@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    cursor: default;
+    
+}
+
+.view-more {
+    display: none;
+}
+ main {
+    scroll-behavior: smooth;
+ }
+
+
+.cover {
+    background: url(img/bg-ph.jpg) no-repeat center center fixed;
+    background-size: cover; 
+ }
+
+ .profilna-m {
+    background-image: url(img/profilna.png);
+    background-size: cover; 
+    
+   
+ }
+
+@media (min-width: 768px){
+    .cover {
+       background: url(img/bg.jpg) no-repeat center center fixed; 
+       background-size: cover;
+    }
+}
+
